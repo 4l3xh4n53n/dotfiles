@@ -1,0 +1,41 @@
+@import "colours.rasi"
+
+configuration { 
+	display-drun: "";
+}
+
+* {
+	foreground: @fg;
+	normal-background: @background;
+	alternate-normal-background: @background;
+	selected-normal-background: @selected;
+	selected-normal-foreground: @background;
+	border-color: @border;
+}
+
+window {
+	border: 3;
+	border-radius: 0;
+	padding: 2%;
+	width: 500;
+}
+
+inputbar {
+	border-radius: 8;
+	height: 30;
+	padding: 6;
+	children: [ textbox-prompt-colon, entry ];
+}
+
+entry {
+	placeholder: "";
+}
+
+listview {
+	spacing: 4;
+}
+
+element {
+	padding: 6;
+	border-radius: 10;
+}

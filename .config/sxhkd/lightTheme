@@ -1,0 +1,5 @@
+#! /bin/sh
+
+feh --bg-center --bg-fill ~/.rice/Light.jpg
+wal -i ~/.rice/Light.jpg
+~/.config/sxhkd/colours

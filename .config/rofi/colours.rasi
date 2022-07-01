@@ -1,0 +1,7 @@
+* {
+fg: #32D08F;
+background: #101010;
+selected: #32D08F;
+border: #92f1ca;
+}
+
